@@ -4,7 +4,7 @@ import sys
 import subprocess
 from subprocess import PIPE, STDOUT
 
-apktool_path = input("Input your apktool path fo your computer: ")
+apktool_path = input("Input your apktool path of your computer: ")
 file_path = input("Input your file path what you want build: ")
 
 apktool_format = "\"{apktool_path}\" b {file_path}".format(apktool_path=apktool_path,file_path=file_path)

@@ -6,10 +6,10 @@ from subprocess import PIPE, STDOUT
 
 parser = argparse.ArgumentParser(description="some information here")
 requiredArg = parser.add_argument_group('required arguments')
-requiredArg.add_argument("-ap", "--apktoolpath", help="your apktool path fo your computer", required=True)
+requiredArg.add_argument("-ap", "--apktoolpath", help="your apktool path of your computer", required=True)
 requiredArg.add_argument("-z", "--z7azpath", help="your 7za path fo your computer", required=True)
 requiredArg.add_argument("-d", "--dex2jarpath", help="your dex2jar path of your computer", required=True)
-requiredArg.add_argument("-f", "--filepath", help="your file path what you want build", required=True)
+requiredArg.add_argument("-f", "--filepath", help="your file path what you want unpack", required=True)
 args = parser.parse_args()
 
 apktool_path = args.apktoolpath

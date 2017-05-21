@@ -7,7 +7,7 @@ from subprocess import PIPE, STDOUT
 
 parser = argparse.ArgumentParser(description="some information here")
 requiredArg = parser.add_argument_group('required arguments')
-requiredArg.add_argument("-ap", "--apktoolpath", help="your apktool path fo your computer", required=True)
+requiredArg.add_argument("-ap", "--apktoolpath", help="your apktool path of your computer", required=True)
 requiredArg.add_argument("-f", "--filepath", help="your file path what you want build", required=True)
 requiredArg.add_argument("-j", "--javapath", help="your java jdk path of your computer", required=True)
 requiredArg.add_argument("-kp", "--keystorepath", help="your keystore path", required=True)
